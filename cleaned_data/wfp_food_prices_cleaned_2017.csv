@@ -1,0 +1,389 @@
+country,category,usdprice
+AFG,cereals and tubers,154.72
+AFG,non-food,1578.63
+AGO,cereals and tubers,123.54
+AGO,milk and dairy,538.6
+AGO,miscellaneous food,9.0
+AGO,oil and fats,133.24
+ARG,cereals and tubers,69.05
+ARG,"meat, fish and eggs",12.77
+ARG,milk and dairy,15.27
+ARG,miscellaneous food,14.059999999999999
+ARM,cereals and tubers,208.43
+ARM,"meat, fish and eggs",942.1
+ARM,milk and dairy,239.87
+ARM,miscellaneous food,45.12
+ARM,non-food,89.79
+ARM,oil and fats,79.37
+ARM,pulses and nuts,80.07
+ARM,vegetables and fruits,295.43
+BDI,cereals and tubers,2439.42
+BDI,"meat, fish and eggs",3272.91
+BDI,non-food,14.23
+BDI,pulses and nuts,400.73
+BDI,vegetables and fruits,496.398
+BEN,cereals and tubers,19.06
+BFA,cereals and tubers,8707.94
+BFA,pulses and nuts,474.83
+BGD,cereals and tubers,1479.46
+BGD,oil and fats,44.81
+BGD,pulses and nuts,53.13
+BLR,cereals and tubers,26.400000000000002
+BOL,cereals and tubers,7936.95
+BOL,"meat, fish and eggs",3197.841
+BOL,milk and dairy,41.54
+BOL,miscellaneous food,56.21
+BTN,cereals and tubers,266.91
+CAF,cereals and tubers,150.02
+CAF,"meat, fish and eggs",959.21
+CAF,oil and fats,160.12
+CAF,pulses and nuts,134.97
+CAF,vegetables and fruits,42.26
+CHN,cereals and tubers,79.32
+CIV,cereals and tubers,76.02
+CIV,"meat, fish and eggs",282.7
+CIV,miscellaneous food,14.91
+CIV,non-food,0.43
+CIV,oil and fats,15.63
+CIV,pulses and nuts,22.26
+CIV,vegetables and fruits,3.99
+CMR,cereals and tubers,7569.89
+CMR,"meat, fish and eggs",261.12
+CMR,oil and fats,56.34
+CMR,pulses and nuts,6423.900000000001
+CMR,vegetables and fruits,1380.26
+COD,cereals and tubers,210.14000000000001
+COD,"meat, fish and eggs",606.5
+COD,miscellaneous food,78.12
+COD,non-food,114.16
+COD,oil and fats,76.74
+COD,pulses and nuts,52.34
+COD,vegetables and fruits,38.82
+COG,cereals and tubers,266.85
+COG,"meat, fish and eggs",987.36
+COG,oil and fats,181.19
+COG,pulses and nuts,270.95
+COG,vegetables and fruits,20.01
+COL,cereals and tubers,24310.75
+COL,"meat, fish and eggs",166.777
+COL,milk and dairy,22.74
+COL,miscellaneous food,51.52
+COL,non-food,2391.93
+COL,oil and fats,23.83
+COL,pulses and nuts,61.8
+COL,vegetables and fruits,243.67000000000002
+CPV,cereals and tubers,90.53
+DJI,cereals and tubers,594.61
+DJI,miscellaneous food,29.9
+DJI,non-food,28.55
+DJI,oil and fats,54.37
+DJI,pulses and nuts,35.79
+DOM,cereals and tubers,831.27
+DOM,"meat, fish and eggs",12.41
+DOM,pulses and nuts,2412.51
+ECU,cereals and tubers,1118.69
+EGY,cereals and tubers,14.29
+EGY,"meat, fish and eggs",49.318
+EGY,milk and dairy,12.97
+EGY,miscellaneous food,6.94
+EGY,oil and fats,95.47
+EGY,pulses and nuts,21.34
+EGY,vegetables and fruits,20.77
+ETH,cereals and tubers,12528.59
+ETH,"meat, fish and eggs",1007.73
+ETH,milk and dairy,22.54
+ETH,miscellaneous food,17.16
+ETH,non-food,22.75
+GAB,cereals and tubers,23.8
+GAB,vegetables and fruits,6.58
+GHA,cereals and tubers,26904.59
+GHA,vegetables and fruits,435.68
+GIN,cereals and tubers,265.09000000000003
+GIN,"meat, fish and eggs",382.02
+GIN,miscellaneous food,67.57000000000001
+GIN,oil and fats,150.29
+GIN,pulses and nuts,87.08
+GIN,vegetables and fruits,76.94
+GMB,cereals and tubers,587.55
+GMB,"meat, fish and eggs",1046.26
+GMB,milk and dairy,201.92000000000002
+GMB,miscellaneous food,277.63
+GMB,non-food,183.37
+GMB,oil and fats,184.46
+GMB,pulses and nuts,170.34
+GMB,vegetables and fruits,605.38
+GNB,cereals and tubers,119.85
+GNB,miscellaneous food,28.901
+GNB,oil and fats,86.52
+GTM,cereals and tubers,3718.14
+GTM,"meat, fish and eggs",1162.7
+GTM,milk and dairy,29.94
+GTM,miscellaneous food,1313.16
+GTM,pulses and nuts,4263.74
+GTM,vegetables and fruits,6851.47
+HND,cereals and tubers,18604.35
+HND,pulses and nuts,6070.07
+HTI,cereals and tubers,896.72
+HTI,miscellaneous food,294.07
+HTI,oil and fats,448.0
+HTI,pulses and nuts,826.45
+IDN,cereals and tubers,252.06
+IDN,"meat, fish and eggs",2509.19
+IDN,milk and dairy,3.0
+IDN,miscellaneous food,321.1
+IDN,oil and fats,276.68
+IDN,vegetables and fruits,3422.96
+IND,cereals and tubers,2893.477
+IND,milk and dairy,312.54
+IND,miscellaneous food,3099.96
+IND,oil and fats,3293.91
+IND,pulses and nuts,2075.9
+IND,vegetables and fruits,400.409
+IRN,cereals and tubers,34.9
+IRN,"meat, fish and eggs",41.85
+IRN,miscellaneous food,12.49
+IRN,oil and fats,19.04
+IRN,pulses and nuts,31.96
+IRQ,cereals and tubers,535.448
+IRQ,"meat, fish and eggs",3198.263
+IRQ,milk and dairy,2064.09
+IRQ,miscellaneous food,1070.02
+IRQ,non-food,4395.11
+IRQ,oil and fats,237.44
+IRQ,pulses and nuts,627.27
+IRQ,vegetables and fruits,443.44
+JOR,cereals and tubers,710.09
+JOR,"meat, fish and eggs",4879.31
+JOR,milk and dairy,1598.8
+JOR,miscellaneous food,198.39000000000001
+JOR,non-food,1655.5199999999998
+JOR,oil and fats,1524.73
+JOR,pulses and nuts,989.47
+JOR,vegetables and fruits,1577.41
+JPN,cereals and tubers,761.81
+JPN,milk and dairy,46.35
+JPN,miscellaneous food,42.12
+JPN,vegetables and fruits,81.95
+KAZ,cereals and tubers,39.74
+KAZ,"meat, fish and eggs",216.21
+KAZ,milk and dairy,14.04
+KAZ,oil and fats,63.85
+KEN,cereals and tubers,6769.65
+KEN,milk and dairy,5.22
+KEN,non-food,26.32
+KEN,oil and fats,20.009999999999998
+KEN,pulses and nuts,4418.36
+KGZ,cereals and tubers,1527.29
+KGZ,"meat, fish and eggs",4189.15
+KGZ,milk and dairy,1853.81
+KGZ,miscellaneous food,476.4
+KGZ,non-food,290.95
+KGZ,oil and fats,1443.58
+KGZ,pulses and nuts,962.54
+KGZ,vegetables and fruits,2054.9
+KHM,cereals and tubers,101.07
+KHM,"meat, fish and eggs",530.52
+KHM,non-food,535.15
+KHM,oil and fats,127.59
+KHM,pulses and nuts,28.91
+LAO,cereals and tubers,747.29
+LAO,"meat, fish and eggs",9949.1
+LAO,miscellaneous food,168.77
+LAO,non-food,345.84
+LAO,oil and fats,639.12
+LAO,vegetables and fruits,284.46
+LBN,"meat, fish and eggs",2341.87
+LBN,milk and dairy,394.08000000000004
+LBN,non-food,9510.41
+LBN,oil and fats,1171.12
+LBN,pulses and nuts,1122.61
+LBN,vegetables and fruits,176.71
+LBR,cereals and tubers,16582.88
+LBR,miscellaneous food,86.31
+LBR,non-food,2327.61
+LBR,oil and fats,1192.72
+LBR,pulses and nuts,246.28
+LBY,cereals and tubers,690.17
+LBY,"meat, fish and eggs",3556.2599999999998
+LBY,milk and dairy,1401.07
+LBY,miscellaneous food,1197.02
+LBY,non-food,87.1
+LBY,oil and fats,227.7
+LBY,pulses and nuts,331.29
+LBY,vegetables and fruits,546.72
+LKA,cereals and tubers,194.07
+LKA,miscellaneous food,116.35
+LKA,non-food,229.01
+LSO,cereals and tubers,1248.43
+LSO,oil and fats,124.5
+LSO,pulses and nuts,149.82
+MDA,cereals and tubers,10.26
+MDG,cereals and tubers,89.18
+MDG,miscellaneous food,58.62
+MDG,non-food,105.82
+MDG,oil and fats,79.1
+MEX,cereals and tubers,49.21
+MEX,pulses and nuts,79.49
+MLI,cereals and tubers,1450.41
+MLI,pulses and nuts,1011.47
+MMR,cereals and tubers,100.25
+MMR,miscellaneous food,59.41
+MMR,non-food,1223.66
+MMR,oil and fats,299.3
+MMR,pulses and nuts,269.09
+MNG,cereals and tubers,52.75
+MNG,"meat, fish and eggs",222.63
+MNG,milk and dairy,29.55
+MOZ,cereals and tubers,642.192
+MOZ,miscellaneous food,172.76
+MOZ,oil and fats,258.21
+MOZ,pulses and nuts,777.84
+MRT,cereals and tubers,289.61
+MRT,"meat, fish and eggs",8.129999999999999
+MRT,miscellaneous food,92.94
+MRT,oil and fats,161.13
+MWI,cereals and tubers,866.2090000000001
+MWI,non-food,23.779999999999998
+MWI,pulses and nuts,440.6
+NAM,cereals and tubers,404.908
+NER,cereals and tubers,6527.792
+NGA,cereals and tubers,63368.16
+NGA,"meat, fish and eggs",1458.11
+NGA,milk and dairy,443.46999999999997
+NGA,miscellaneous food,118.4
+NGA,non-food,133.56
+NGA,oil and fats,1080.71
+NGA,pulses and nuts,31152.94
+NGA,vegetables and fruits,312.122
+NIC,cereals and tubers,1460.37
+NIC,"meat, fish and eggs",198.24
+NIC,milk and dairy,36.56
+NIC,miscellaneous food,88.96000000000001
+NIC,non-food,45.589999999999996
+NIC,oil and fats,31.209999999999997
+NIC,pulses and nuts,596.41
+NIC,vegetables and fruits,78.83
+NPL,cereals and tubers,24.68
+PAK,cereals and tubers,77.79
+PAK,"meat, fish and eggs",100.51
+PAK,milk and dairy,34.27
+PAK,miscellaneous food,26.249
+PAK,non-food,333.93
+PAK,oil and fats,150.92
+PAK,pulses and nuts,176.68
+PAN,cereals and tubers,606.22
+PAN,pulses and nuts,2057.67
+PER,cereals and tubers,115.24
+PER,"meat, fish and eggs",22.38
+PER,miscellaneous food,7.2
+PER,oil and fats,13.16
+PHL,cereals and tubers,538.88
+PHL,"meat, fish and eggs",1832.995
+PHL,pulses and nuts,155.74
+PHL,vegetables and fruits,1071.27
+PSE,cereals and tubers,6039.22
+PSE,"meat, fish and eggs",4447.6
+PSE,milk and dairy,3060.44
+PSE,miscellaneous food,464.54
+PSE,non-food,192.55
+PSE,oil and fats,1345.57
+PSE,pulses and nuts,435.51
+PSE,vegetables and fruits,584.83
+RUS,cereals and tubers,18.560000000000002
+RWA,cereals and tubers,424.21
+RWA,"meat, fish and eggs",325.28000000000003
+RWA,miscellaneous food,138.52
+RWA,oil and fats,270.71999999999997
+RWA,pulses and nuts,53.96
+RWA,vegetables and fruits,50.903999999999996
+SDN,cereals and tubers,12668.05
+SDN,non-food,28.0
+SEN,cereals and tubers,662.11
+SLE,cereals and tubers,161.744
+SLE,"meat, fish and eggs",588.15
+SLE,miscellaneous food,407.29
+SLE,oil and fats,297.03
+SLE,pulses and nuts,230.75
+SLV,cereals and tubers,1307.3
+SLV,pulses and nuts,1884.3600000000001
+SOM,cereals and tubers,18565.94
+SOM,"meat, fish and eggs",105266.61
+SOM,milk and dairy,2675.46
+SOM,non-food,6678.63
+SOM,oil and fats,4971.67
+SSD,cereals and tubers,435.43
+SSD,non-food,186.62
+SSD,oil and fats,176.14000000000001
+SSD,pulses and nuts,423.82
+SWZ,cereals and tubers,410.61
+SWZ,miscellaneous food,72.69
+SWZ,oil and fats,11.74
+SWZ,pulses and nuts,64.53
+SWZ,vegetables and fruits,35.25
+SYR,cereals and tubers,896.771
+SYR,"meat, fish and eggs",49234.38
+SYR,milk and dairy,834.38
+SYR,miscellaneous food,2723.44
+SYR,non-food,4025.918
+SYR,oil and fats,440.42
+SYR,pulses and nuts,887.21
+SYR,vegetables and fruits,681.32
+TCD,cereals and tubers,324.19
+TCD,"meat, fish and eggs",5911.82
+TCD,non-food,1.99
+TGO,cereals and tubers,90.93
+THA,cereals and tubers,10.79
+THA,"meat, fish and eggs",17.46
+TJK,cereals and tubers,126.88
+TJK,"meat, fish and eggs",408.36
+TJK,milk and dairy,18.88
+TJK,miscellaneous food,264.86
+TJK,non-food,784.81
+TJK,oil and fats,107.8
+TJK,pulses and nuts,173.51
+TJK,vegetables and fruits,42.78
+TLS,cereals and tubers,56.01
+TLS,"meat, fish and eggs",26.88
+TLS,non-food,29.14
+TUR,cereals and tubers,156.44
+TUR,"meat, fish and eggs",899.26
+TUR,milk and dairy,708.3
+TUR,miscellaneous food,1064.44
+TUR,non-food,747.43
+TUR,oil and fats,307.56
+TUR,pulses and nuts,340.5
+TUR,vegetables and fruits,327.89
+TZA,cereals and tubers,14458.07
+TZA,"meat, fish and eggs",2474.76
+TZA,miscellaneous food,239.79
+TZA,oil and fats,798.85
+TZA,pulses and nuts,10970.4
+TZA,vegetables and fruits,657.064
+UGA,cereals and tubers,146.16
+UGA,oil and fats,78.75
+UGA,pulses and nuts,46.15
+UGA,vegetables and fruits,8.62
+UKR,cereals and tubers,684.31
+UKR,"meat, fish and eggs",2316.1
+UKR,milk and dairy,1096.01
+UKR,miscellaneous food,105.07000000000001
+UKR,non-food,345.75
+UKR,oil and fats,1677.72
+UKR,vegetables and fruits,182.61
+VEN,non-food,0.16490002780000002
+VNM,cereals and tubers,7.9
+YEM,cereals and tubers,933.42
+YEM,"meat, fish and eggs",29666.81
+YEM,miscellaneous food,295.93
+YEM,non-food,10776.16
+YEM,oil and fats,315.36
+YEM,pulses and nuts,1416.32
+YEM,vegetables and fruits,398.98
+ZAF,cereals and tubers,7.7
+ZMB,cereals and tubers,982.687
+ZMB,non-food,25.66
+ZMB,pulses and nuts,2006.76
+ZWE,cereals and tubers,198.05
+ZWE,miscellaneous food,22.2
+ZWE,oil and fats,328.94
+ZWE,pulses and nuts,420.96999999999997
