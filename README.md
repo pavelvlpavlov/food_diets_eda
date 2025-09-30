@@ -18,7 +18,7 @@ Employing EDA, descriptive statistics, trend analysis, regresison analysis?
 ## Data Sources  
 - [Inflation of Consumer Prices (Our World in Data)](https://archive.ourworldindata.org/20250916-102301/grapher/inflation-of-consumer-prices.html)  
 - [Share of Population for Whom a Healthy Diet is Unaffordable (Our World in Data)](https://ourworldindata.org/grapher/share-healthy-diet-unaffordable#reuse-this-work)  
-- [AJPH: The Growing Problem of Food Insecurity](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2008.151415)  
+- [WFP - Food Prices](https://data.humdata.org/dataset/global-wfp-food-prices)  
 
 ## Data Cleaning  
 - Dropped unnecessary columns from **World Food Prices (WFP)** dataset  
