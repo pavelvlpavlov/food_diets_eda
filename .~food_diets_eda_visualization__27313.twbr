@@ -1,0 +1,1453 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='share-healthy-diet-unaffordable+' inline='true' name='federated.0w63ark1libut71fmhtvi1r00ljh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='share-healthy-diet-unaffordable' name='textscan.0z2buva1nu9awa10e6pvm01n8syx'>
+            <connection class='textscan' directory='Data' filename='share-healthy-diet-unaffordable.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0z2buva1nu9awa10e6pvm01n8syx' name='share-healthy-diet-unaffordable.csv' table='[share-healthy-diet-unaffordable#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='string' name='Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='real' name='Share of the population who cannot afford a healthy diet' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[share-healthy-diet-unaffordable.csv_74DDF2A972214229B155D34A0D527F6E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[share-healthy-diet-unaffordable.csv_74DDF2A972214229B155D34A0D527F6E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[share-healthy-diet-unaffordable.csv_74DDF2A972214229B155D34A0D527F6E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Share of the population who cannot afford a healthy diet</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Share of the population who cannot afford a healthy diet]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Share of the population who cannot afford a healthy diet</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[share-healthy-diet-unaffordable.csv_74DDF2A972214229B155D34A0D527F6E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='share-healthy-diet-unaffordable.csv' datatype='table' name='[__tableau_internal_object_id__].[share-healthy-diet-unaffordable.csv_74DDF2A972214229B155D34A0D527F6E]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='share-healthy-diet-unaffordable.csv' id='share-healthy-diet-unaffordable.csv_74DDF2A972214229B155D34A0D527F6E'>
+            <properties context=''>
+              <relation connection='textscan.0z2buva1nu9awa10e6pvm01n8syx' name='share-healthy-diet-unaffordable.csv' table='[share-healthy-diet-unaffordable#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='string' name='Entity' ordinal='0' />
+                  <column datatype='string' name='Code' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='real' name='Share of the population who cannot afford a healthy diet' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='inflation_of_consumer_prices_cleaned' inline='true' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='inflation_of_consumer_prices_cleaned' name='textscan.1e2pd2c0ohsdz216glfch1sjy08f'>
+            <connection class='textscan' directory='Data 1' filename='inflation_of_consumer_prices_cleaned.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='share-healthy-diet-unaffordable' name='textscan.0curt0w03qmhkw1fisin50nx2f3p'>
+            <connection class='textscan' directory='Data' filename='share-healthy-diet-unaffordable.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.1e2pd2c0ohsdz216glfch1sjy08f' name='inflation_of_consumer_prices_cleaned.csv' table='[inflation_of_consumer_prices_cleaned#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+              <column datatype='string' name='Entity' ordinal='0' />
+              <column datatype='string' name='Code' ordinal='1' />
+              <column datatype='integer' name='Year' ordinal='2' />
+              <column datatype='real' name='Inflation, consumer prices (annual %)' ordinal='3' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0curt0w03qmhkw1fisin50nx2f3p' name='share-healthy-diet-unaffordable.csv' table='[share-healthy-diet-unaffordable#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+              <column datatype='string' name='Entity' ordinal='0' />
+              <column datatype='string' name='Code' ordinal='1' />
+              <column datatype='integer' name='Year' ordinal='2' />
+              <column datatype='real' name='Share of the population who cannot afford a healthy diet' ordinal='3' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Code (share-healthy-diet-unaffordable.csv)]' value='[share-healthy-diet-unaffordable.csv].[Code]' />
+          <map key='[Code]' value='[inflation_of_consumer_prices_cleaned.csv].[Code]' />
+          <map key='[Entity (share-healthy-diet-unaffordable.csv)]' value='[share-healthy-diet-unaffordable.csv].[Entity]' />
+          <map key='[Entity]' value='[inflation_of_consumer_prices_cleaned.csv].[Entity]' />
+          <map key='[Inflation, consumer prices (annual %)]' value='[inflation_of_consumer_prices_cleaned.csv].[Inflation, consumer prices (annual %)]' />
+          <map key='[Share of the population who cannot afford a healthy diet]' value='[share-healthy-diet-unaffordable.csv].[Share of the population who cannot afford a healthy diet]' />
+          <map key='[Year (share-healthy-diet-unaffordable.csv)]' value='[share-healthy-diet-unaffordable.csv].[Year]' />
+          <map key='[Year]' value='[inflation_of_consumer_prices_cleaned.csv].[Year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[inflation_of_consumer_prices_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[inflation_of_consumer_prices_cleaned.csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[inflation_of_consumer_prices_cleaned.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[inflation_of_consumer_prices_cleaned.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inflation, consumer prices (annual %)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inflation, consumer prices (annual %)]</local-name>
+            <parent-name>[inflation_of_consumer_prices_cleaned.csv]</parent-name>
+            <remote-alias>Inflation, consumer prices (annual %)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity (share-healthy-diet-unaffordable.csv)]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code (share-healthy-diet-unaffordable.csv)]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year (share-healthy-diet-unaffordable.csv)]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Share of the population who cannot afford a healthy diet</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Share of the population who cannot afford a healthy diet]</local-name>
+            <parent-name>[share-healthy-diet-unaffordable.csv]</parent-name>
+            <remote-alias>Share of the population who cannot afford a healthy diet</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year (share-healthy-diet-unaffordable.csv)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='inflation_of_consumer_prices_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64]' role='measure' type='quantitative' />
+      <column caption='share-healthy-diet-unaffordable.csv' datatype='table' name='[__tableau_internal_object_id__].[share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1]' role='measure' type='quantitative' />
+      <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Entity:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;East Asia and Pacific (WB)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;North America (WB)&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Upper-middle-income countries&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Low-income countries&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sub-Saharan Africa (WB)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lower-middle-income countries&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Latin America and Caribbean (WB)&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;South Asia (WB)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Europe and Central Asia (WB)&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;European Union (27)&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;High-income countries&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='inflation_of_consumer_prices_cleaned.csv' id='inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64'>
+            <properties context=''>
+              <relation connection='textscan.1e2pd2c0ohsdz216glfch1sjy08f' name='inflation_of_consumer_prices_cleaned.csv' table='[inflation_of_consumer_prices_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='string' name='Entity' ordinal='0' />
+                  <column datatype='string' name='Code' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='real' name='Inflation, consumer prices (annual %)' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='share-healthy-diet-unaffordable.csv' id='share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1'>
+            <properties context=''>
+              <relation connection='textscan.0curt0w03qmhkw1fisin50nx2f3p' name='share-healthy-diet-unaffordable.csv' table='[share-healthy-diet-unaffordable#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='string' name='Entity' ordinal='0' />
+                  <column datatype='string' name='Code' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='real' name='Share of the population who cannot afford a healthy diet' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[Entity]' />
+                <expression op='[Entity (share-healthy-diet-unaffordable.csv)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[Year]' />
+                <expression op='[Year (share-healthy-diet-unaffordable.csv)]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='inflation_of_consumer_prices_cleaned.csv_6CBCD856A4A04D02A2CE60E78F00EC64' />
+            <second-end-point object-id='share-healthy-diet-unaffordable.csv_059054307F8349F9AC580F35810699C1' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+    <datasource caption='bank-full' inline='true' name='federated.0ulpi8b1bvq78a10fesnc0rmjr44' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bank-full' name='textscan.0fo3j910bu63b41btd71t0oi46lj'>
+            <connection class='textscan' directory='Data/Casestudy_Partnerstudio' filename='bank-full.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0fo3j910bu63b41btd71t0oi46lj' name='bank-full.csv' table='[bank-full#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=';'>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='job' ordinal='1' />
+            <column datatype='string' name='marital' ordinal='2' />
+            <column datatype='string' name='education' ordinal='3' />
+            <column datatype='string' name='default' ordinal='4' />
+            <column datatype='integer' name='balance' ordinal='5' />
+            <column datatype='string' name='housing' ordinal='6' />
+            <column datatype='string' name='loan' ordinal='7' />
+            <column datatype='string' name='contact' ordinal='8' />
+            <column datatype='integer' name='day' ordinal='9' />
+            <column datatype='string' name='month' ordinal='10' />
+            <column datatype='integer' name='duration' ordinal='11' />
+            <column datatype='integer' name='campaign' ordinal='12' />
+            <column datatype='integer' name='pdays' ordinal='13' />
+            <column datatype='integer' name='previous' ordinal='14' />
+            <column datatype='string' name='poutcome' ordinal='15' />
+            <column datatype='string' name='y' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>job</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[marital]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>marital</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>default</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[default]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>default</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balance]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>balance</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>housing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[housing]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>housing</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[loan]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>loan</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contact</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contact]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>contact</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>campaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[campaign]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>campaign</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pdays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pdays]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>pdays</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>previous</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[previous]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>previous</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poutcome</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[poutcome]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>poutcome</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[y]</local-name>
+            <parent-name>[bank-full.csv]</parent-name>
+            <remote-alias>y</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='bank-full.csv' datatype='table' name='[__tableau_internal_object_id__].[bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Balance' datatype='integer' name='[balance]' role='measure' type='quantitative' />
+      <column caption='Campaign' datatype='integer' name='[campaign]' role='measure' type='quantitative' />
+      <column caption='Contact' datatype='string' name='[contact]' role='dimension' type='nominal' />
+      <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative' />
+      <column caption='Default' datatype='string' name='[default]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='integer' name='[duration]' role='measure' type='quantitative' />
+      <column caption='Education' datatype='string' name='[education]' role='dimension' type='nominal' />
+      <column caption='Housing' datatype='string' name='[housing]' role='dimension' type='nominal' />
+      <column caption='Job' datatype='string' name='[job]' role='dimension' type='nominal' />
+      <column caption='Loan' datatype='string' name='[loan]' role='dimension' type='nominal' />
+      <column caption='Marital' datatype='string' name='[marital]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Pdays' datatype='integer' name='[pdays]' role='measure' type='quantitative' />
+      <column caption='Poutcome' datatype='string' name='[poutcome]' role='dimension' type='nominal' />
+      <column caption='Previous' datatype='integer' name='[previous]' role='measure' type='quantitative' />
+      <column caption='Y' datatype='string' name='[y]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='bank-full.csv' id='bank-full.csv_425D7FCDB1DC4E2D9A77A76F4627782F'>
+            <properties context=''>
+              <relation connection='textscan.0fo3j910bu63b41btd71t0oi46lj' name='bank-full.csv' table='[bank-full#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=';'>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='job' ordinal='1' />
+                  <column datatype='string' name='marital' ordinal='2' />
+                  <column datatype='string' name='education' ordinal='3' />
+                  <column datatype='string' name='default' ordinal='4' />
+                  <column datatype='integer' name='balance' ordinal='5' />
+                  <column datatype='string' name='housing' ordinal='6' />
+                  <column datatype='string' name='loan' ordinal='7' />
+                  <column datatype='string' name='contact' ordinal='8' />
+                  <column datatype='integer' name='day' ordinal='9' />
+                  <column datatype='string' name='month' ordinal='10' />
+                  <column datatype='integer' name='duration' ordinal='11' />
+                  <column datatype='integer' name='campaign' ordinal='12' />
+                  <column datatype='integer' name='pdays' ordinal='13' />
+                  <column datatype='integer' name='previous' ordinal='14' />
+                  <column datatype='string' name='poutcome' ordinal='15' />
+                  <column datatype='string' name='y' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Inflation country region '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Food Price Inflation (country regions)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inflation_of_consumer_prices_cleaned' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xtosmr0dmh1ax1g17tkd0tn512w'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Inflation, consumer prices (annual %)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Inflation, consumer prices (annual %)]' derivation='Sum' name='[sum:Inflation, consumer prices (annual %):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;East Asia and Pacific (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Europe and Central Asia (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;European Union (27)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Latin America and Caribbean (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;North America (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;South Asia (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Sub-Saharan Africa (WB)&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Europe and Central Asia (WB)&quot;</bucket>
+              <bucket>&quot;Sub-Saharan Africa (WB)&quot;</bucket>
+              <bucket>&quot;Latin America and Caribbean (WB)&quot;</bucket>
+              <bucket>&quot;North America (WB)&quot;</bucket>
+              <bucket>&quot;South Asia (WB)&quot;</bucket>
+              <bucket>&quot;East Asia and Pacific (WB)&quot;</bucket>
+              <bucket>&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]' included-values='in-range'>
+            <min>2017</min>
+            <max>2024</max>
+          </filter>
+          <slices>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]</column>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]' field-type='quantitative' max='2025' min='2017' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+              <text column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Inflation, consumer prices (annual %):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.6408839225769043' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Inflation, consumer prices (annual %):qk]</rows>
+        <cols>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{887E9F48-4EB8-4D18-A104-E1A7EB39741B}' />
+    </worksheet>
+    <worksheet name='Inflation income level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Food Price Inflation (country income level)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inflation_of_consumer_prices_cleaned' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xtosmr0dmh1ax1g17tkd0tn512w'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Inflation, consumer prices (annual %)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Inflation, consumer prices (annual %)]' derivation='Sum' name='[sum:Inflation, consumer prices (annual %):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;High-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Low-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Lower-middle-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Upper-middle-income countries&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low-income countries&quot;</bucket>
+              <bucket>&quot;Upper-middle-income countries&quot;</bucket>
+              <bucket>&quot;Lower-middle-income countries&quot;</bucket>
+              <bucket>&quot;High-income countries&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]</column>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+              <text column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Inflation, consumer prices (annual %):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='3.3480663299560547' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Inflation, consumer prices (annual %):qk]</rows>
+        <cols>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{C2D1C5DF-F267-4A38-AEF6-D5C759449BF2}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A39CAD5F-43FD-4914-AA4A-F116F54BE1C5}' />
+    </worksheet>
+    <worksheet name='share population diet country region '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Share of population who cannot afford  a healthy diet (country region)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inflation_of_consumer_prices_cleaned' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xtosmr0dmh1ax1g17tkd0tn512w'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Share of the population who cannot afford a healthy diet]' role='measure' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Share of the population who cannot afford a healthy diet]' derivation='Sum' name='[sum:Share of the population who cannot afford a healthy diet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;East Asia and Pacific (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Europe and Central Asia (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;European Union (27)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Latin America and Caribbean (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;North America (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;South Asia (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Sub-Saharan Africa (WB)&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Europe and Central Asia (WB)&quot;</bucket>
+              <bucket>&quot;Sub-Saharan Africa (WB)&quot;</bucket>
+              <bucket>&quot;Latin America and Caribbean (WB)&quot;</bucket>
+              <bucket>&quot;North America (WB)&quot;</bucket>
+              <bucket>&quot;South Asia (WB)&quot;</bucket>
+              <bucket>&quot;East Asia and Pacific (WB)&quot;</bucket>
+              <bucket>&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+              <size column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' />
+              <text column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E2C9BD66-795C-4124-960A-58D2DCB22C81}' />
+    </worksheet>
+    <worksheet name='share population diet country region (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Share of population who cannot afford  a healthy diet (country region)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inflation_of_consumer_prices_cleaned' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xtosmr0dmh1ax1g17tkd0tn512w'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Share of the population who cannot afford a healthy diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year (share-healthy-diet-unaffordable.csv)]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (share-healthy-diet-unaffordable.csv)]' derivation='None' name='[none:Year (share-healthy-diet-unaffordable.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Share of the population who cannot afford a healthy diet]' derivation='Sum' name='[sum:Share of the population who cannot afford a healthy diet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;East Asia and Pacific (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Europe and Central Asia (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;European Union (27)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Latin America and Caribbean (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;North America (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;South Asia (WB)&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Sub-Saharan Africa (WB)&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Europe and Central Asia (WB)&quot;</bucket>
+              <bucket>&quot;Sub-Saharan Africa (WB)&quot;</bucket>
+              <bucket>&quot;Latin America and Caribbean (WB)&quot;</bucket>
+              <bucket>&quot;North America (WB)&quot;</bucket>
+              <bucket>&quot;South Asia (WB)&quot;</bucket>
+              <bucket>&quot;East Asia and Pacific (WB)&quot;</bucket>
+              <bucket>&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+              <text column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]</rows>
+        <cols>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year (share-healthy-diet-unaffordable.csv):qk]</cols>
+      </table>
+      <simple-id uuid='{C71BF387-7A32-46A1-891A-30193E033002}' />
+    </worksheet>
+    <worksheet name='share population diet income level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Share of population who cannot afford a healthy diet (country income level)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inflation_of_consumer_prices_cleaned' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xtosmr0dmh1ax1g17tkd0tn512w'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Share of the population who cannot afford a healthy diet]' role='measure' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Share of the population who cannot afford a healthy diet]' derivation='Sum' name='[sum:Share of the population who cannot afford a healthy diet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;High-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Low-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Lower-middle-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Upper-middle-income countries&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Europe and Central Asia (WB)&quot;</bucket>
+              <bucket>&quot;Sub-Saharan Africa (WB)&quot;</bucket>
+              <bucket>&quot;Latin America and Caribbean (WB)&quot;</bucket>
+              <bucket>&quot;North America (WB)&quot;</bucket>
+              <bucket>&quot;South Asia (WB)&quot;</bucket>
+              <bucket>&quot;East Asia and Pacific (WB)&quot;</bucket>
+              <bucket>&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' />
+              <text column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+              <color column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A75F63D0-D8E2-4175-A811-684682CCC8CF}' />
+    </worksheet>
+    <worksheet name='share population diet income level (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Share of population who cannot afford a healthy diet (country income level)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inflation_of_consumer_prices_cleaned' name='federated.0xtosmr0dmh1ax1g17tkd0tn512w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xtosmr0dmh1ax1g17tkd0tn512w'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Share of the population who cannot afford a healthy diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year (share-healthy-diet-unaffordable.csv)]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year (share-healthy-diet-unaffordable.csv)]' derivation='None' name='[none:Year (share-healthy-diet-unaffordable.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Share of the population who cannot afford a healthy diet]' derivation='Sum' name='[sum:Share of the population who cannot afford a healthy diet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;High-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Low-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Lower-middle-income countries&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Upper-middle-income countries&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Europe and Central Asia (WB)&quot;</bucket>
+              <bucket>&quot;Sub-Saharan Africa (WB)&quot;</bucket>
+              <bucket>&quot;Latin America and Caribbean (WB)&quot;</bucket>
+              <bucket>&quot;North America (WB)&quot;</bucket>
+              <bucket>&quot;South Asia (WB)&quot;</bucket>
+              <bucket>&quot;East Asia and Pacific (WB)&quot;</bucket>
+              <bucket>&quot;Middle East, North Africa, Afghanistan and Pakistan (WB)&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' />
+              <text column='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='size' value='2.1546962261199951' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[sum:Share of the population who cannot afford a healthy diet:qk]</rows>
+        <cols>[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year (share-healthy-diet-unaffordable.csv):qk]</cols>
+      </table>
+      <simple-id uuid='{97C9763F-30A9-4C6C-BDC1-31E0CEE2448C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' maximized='true' name='Inflation country region '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{13A1447F-98D4-4141-B081-DA4DBB5B9DC3}' />
+    </window>
+    <window class='worksheet' name='Inflation income level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{152DEEDE-CBF8-444F-8F3A-32B21B2A8C98}' />
+    </window>
+    <window class='worksheet' name='share population diet country region '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9D539DD4-9F2B-450F-9537-A7939F0E4552}' />
+    </window>
+    <window class='worksheet' name='share population diet country region (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CFE759B-9C64-4302-83FA-29FC79D035E8}' />
+    </window>
+    <window class='worksheet' name='share population diet income level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='249'>
+            <card pane-specification-id='0' param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD2123BD-F5CE-4663-AF7B-4B9252582D1C}' />
+    </window>
+    <window class='worksheet' name='share population diet income level (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='249'>
+            <card pane-specification-id='0' param='[federated.0xtosmr0dmh1ax1g17tkd0tn512w].[none:Entity:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{27088BD8-49D7-4835-8483-82A8C197BD8E}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{25D5CA57-6D80-4A92-BD2D-9504FAED36A8}' />
+    </window>
+  </windows>
+</workbook>
