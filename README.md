@@ -20,9 +20,9 @@ A combination of descriptive statistics, and data visualization was employed to 
 
 `notebooks`: Contains Jupyter notebooks with Python code blocks used for data cleaning and analysis, and detailed explanations of the different steps
 
-`dashboards`: contains the tableau visualizations as images
+`dashboards`: Contains the tableau visualizations as images
 
-`tableau`: contains tableau vizualizations
+`tableau`: Contains tableau vizualizations
 
 ## Visualizations and Results
   [Link to Tableau Public](https://public.tableau.com/app/profile/pavel.pavlov1285/vizzes)
