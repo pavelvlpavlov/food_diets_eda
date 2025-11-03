@@ -24,6 +24,9 @@ A combination of descriptive statistics, and data visualization was employed to 
 ## Visualizations and Results
   [Link to Tableau Public](https://public.tableau.com/app/profile/pavel.pavlov1285/vizzes)
 
+![Map Share of Population](dashboards/Map%20Share%20of%20population.png)
+
+
 ![Food Price Changes](dashboards/Food%20price%20changes%20global.png)
 
 
