@@ -30,6 +30,9 @@ A combination of descriptive statistics, and data visualization was employed to 
 
 ![Food Price Changes](dashboards/Food%20price%20changes%20global.png)
 
+![Relevant Food Groups](dashboards/Relevant%20Food%20groups.png)
+
+
 
  
 ## Tech Stack
