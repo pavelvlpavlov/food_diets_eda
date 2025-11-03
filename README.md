@@ -19,7 +19,7 @@ A combination of descriptive statistics, and data visualization was employed to 
 `data`: Contains the data used for the final analysis and visualizations.<br>
 `notebooks`: Contains Jupyter notebooks with Python code blocks used for data cleaning and analysis, and detailed explanations of the different steps.<br>
 `dashboards`: Contains the Tableau visualizations as images.<br>
-`tableau`: Contains Tableau vizualizations.
+`tableau`: Contains Tableau visualizations.
 
 ## Visualizations and Results
   [Link to Tableau Public](https://public.tableau.com/app/profile/pavel.pavlov1285/vizzes)
