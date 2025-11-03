@@ -1,0 +1,428 @@
+grouped,year,category,avgmedianPrice
+East Asia & Pacific,2017,cereals and tubers,0.9881818181818182
+East Asia & Pacific,2017,"meat, fish and eggs",3.3842857142857143
+East Asia & Pacific,2017,milk and dairy,1.1033333333333333
+East Asia & Pacific,2017,miscellaneous food,1.01625
+East Asia & Pacific,2017,non-food,2.4612499999999997
+East Asia & Pacific,2017,oil and fats,1.3250000000000002
+East Asia & Pacific,2017,pulses and nuts,1.2883333333333333
+East Asia & Pacific,2017,vegetables and fruits,1.78625
+East Asia & Pacific,2018,cereals and tubers,1.045
+East Asia & Pacific,2018,"meat, fish and eggs",3.0614285714285714
+East Asia & Pacific,2018,milk and dairy,1.1083333333333334
+East Asia & Pacific,2018,miscellaneous food,0.8150000000000001
+East Asia & Pacific,2018,non-food,2.48375
+East Asia & Pacific,2018,oil and fats,1.4012499999999999
+East Asia & Pacific,2018,pulses and nuts,1.1616666666666668
+East Asia & Pacific,2018,vegetables and fruits,1.6019999999999999
+East Asia & Pacific,2019,cereals and tubers,0.909
+East Asia & Pacific,2019,"meat, fish and eggs",3.035833333333333
+East Asia & Pacific,2019,milk and dairy,1.1300000000000001
+East Asia & Pacific,2019,miscellaneous food,0.8
+East Asia & Pacific,2019,non-food,3.4316666666666666
+East Asia & Pacific,2019,oil and fats,1.935
+East Asia & Pacific,2019,pulses and nuts,1.17
+East Asia & Pacific,2019,vegetables and fruits,1.636
+East Asia & Pacific,2020,cereals and tubers,0.9949999999999999
+East Asia & Pacific,2020,"meat, fish and eggs",2.411875
+East Asia & Pacific,2020,milk and dairy,1.1083333333333334
+East Asia & Pacific,2020,miscellaneous food,0.8492857142857143
+East Asia & Pacific,2020,non-food,3.1574999999999998
+East Asia & Pacific,2020,oil and fats,1.7699999999999998
+East Asia & Pacific,2020,pulses and nuts,1.495
+East Asia & Pacific,2020,vegetables and fruits,1.5007142857142857
+East Asia & Pacific,2021,cereals and tubers,0.6544444444444444
+East Asia & Pacific,2021,"meat, fish and eggs",3.3406249999999997
+East Asia & Pacific,2021,milk and dairy,0.78
+East Asia & Pacific,2021,miscellaneous food,1.874285714285714
+East Asia & Pacific,2021,non-food,1.0074999999999998
+East Asia & Pacific,2021,oil and fats,2.2066666666666666
+East Asia & Pacific,2021,pulses and nuts,1.498
+East Asia & Pacific,2021,vegetables and fruits,1.4114285714285713
+East Asia & Pacific,2022,cereals and tubers,0.6344444444444445
+East Asia & Pacific,2022,"meat, fish and eggs",2.734375
+East Asia & Pacific,2022,milk and dairy,0.985
+East Asia & Pacific,2022,miscellaneous food,1.6708333333333334
+East Asia & Pacific,2022,non-food,1.385
+East Asia & Pacific,2022,oil and fats,3.0829999999999997
+East Asia & Pacific,2022,pulses and nuts,1.682
+East Asia & Pacific,2022,vegetables and fruits,1.5135714285714286
+East Asia & Pacific,2023,cereals and tubers,0.81
+East Asia & Pacific,2023,"meat, fish and eggs",2.615
+East Asia & Pacific,2023,milk and dairy,0.46
+East Asia & Pacific,2023,miscellaneous food,0.634
+East Asia & Pacific,2023,non-food,1.215
+East Asia & Pacific,2023,oil and fats,2.7779999999999996
+East Asia & Pacific,2023,pulses and nuts,2.03625
+East Asia & Pacific,2023,vegetables and fruits,1.68
+East Asia & Pacific,2024,cereals and tubers,0.8866666666666667
+East Asia & Pacific,2024,"meat, fish and eggs",2.7291666666666665
+East Asia & Pacific,2024,milk and dairy,0.44
+East Asia & Pacific,2024,miscellaneous food,0.821
+East Asia & Pacific,2024,non-food,1.1800000000000002
+East Asia & Pacific,2024,oil and fats,2.98
+East Asia & Pacific,2024,pulses and nuts,2.34125
+East Asia & Pacific,2024,vegetables and fruits,1.8150000000000002
+East Asia & Pacific,2025,cereals and tubers,0.8480000000000001
+East Asia & Pacific,2025,"meat, fish and eggs",2.677
+East Asia & Pacific,2025,milk and dairy,0.4
+East Asia & Pacific,2025,miscellaneous food,0.84
+East Asia & Pacific,2025,non-food,1.125
+East Asia & Pacific,2025,oil and fats,3.64
+East Asia & Pacific,2025,pulses and nuts,2.3025
+East Asia & Pacific,2025,vegetables and fruits,1.592
+Europe & Central Asia,2017,cereals and tubers,0.53
+Europe & Central Asia,2017,"meat, fish and eggs",3.8174999999999994
+Europe & Central Asia,2017,milk and dairy,1.1633333333333333
+Europe & Central Asia,2017,miscellaneous food,0.9730000000000001
+Europe & Central Asia,2017,non-food,0.9380000000000001
+Europe & Central Asia,2017,oil and fats,2.22
+Europe & Central Asia,2017,pulses and nuts,1.8087499999999999
+Europe & Central Asia,2017,vegetables and fruits,0.528
+Europe & Central Asia,2018,cereals and tubers,0.5455555555555556
+Europe & Central Asia,2018,"meat, fish and eggs",3.910833333333333
+Europe & Central Asia,2018,milk and dairy,1.2691666666666668
+Europe & Central Asia,2018,miscellaneous food,0.944
+Europe & Central Asia,2018,non-food,0.8710000000000001
+Europe & Central Asia,2018,oil and fats,2.1708333333333334
+Europe & Central Asia,2018,pulses and nuts,1.63375
+Europe & Central Asia,2018,vegetables and fruits,0.51
+Europe & Central Asia,2019,cereals and tubers,0.5812499999999999
+Europe & Central Asia,2019,"meat, fish and eggs",4.075833333333334
+Europe & Central Asia,2019,milk and dairy,1.3150000000000002
+Europe & Central Asia,2019,miscellaneous food,1.752
+Europe & Central Asia,2019,non-food,0.821
+Europe & Central Asia,2019,oil and fats,1.9233333333333331
+Europe & Central Asia,2019,pulses and nuts,1.44
+Europe & Central Asia,2019,vegetables and fruits,0.531
+Europe & Central Asia,2020,cereals and tubers,0.5856250000000001
+Europe & Central Asia,2020,"meat, fish and eggs",4.1691666666666665
+Europe & Central Asia,2020,milk and dairy,1.2783333333333333
+Europe & Central Asia,2020,miscellaneous food,1.7120000000000002
+Europe & Central Asia,2020,non-food,0.74
+Europe & Central Asia,2020,oil and fats,1.575
+Europe & Central Asia,2020,pulses and nuts,1.4562499999999998
+Europe & Central Asia,2020,vegetables and fruits,0.484
+Europe & Central Asia,2021,cereals and tubers,0.6849999999999999
+Europe & Central Asia,2021,"meat, fish and eggs",4.042
+Europe & Central Asia,2021,milk and dairy,1.579
+Europe & Central Asia,2021,miscellaneous food,1.288
+Europe & Central Asia,2021,non-food,0.8220000000000001
+Europe & Central Asia,2021,oil and fats,2.44
+Europe & Central Asia,2021,pulses and nuts,1.5425
+Europe & Central Asia,2021,vegetables and fruits,0.548
+Europe & Central Asia,2022,cereals and tubers,0.8642857142857142
+Europe & Central Asia,2022,"meat, fish and eggs",4.240833333333334
+Europe & Central Asia,2022,milk and dairy,1.2458333333333333
+Europe & Central Asia,2022,miscellaneous food,1.7175
+Europe & Central Asia,2022,non-food,0.985
+Europe & Central Asia,2022,oil and fats,3.3349999999999995
+Europe & Central Asia,2022,pulses and nuts,1.793
+Europe & Central Asia,2022,vegetables and fruits,0.71
+Europe & Central Asia,2023,cereals and tubers,0.8916666666666666
+Europe & Central Asia,2023,"meat, fish and eggs",4.651666666666666
+Europe & Central Asia,2023,milk and dairy,1.5433333333333332
+Europe & Central Asia,2023,miscellaneous food,2.044166666666667
+Europe & Central Asia,2023,non-food,0.994
+Europe & Central Asia,2023,oil and fats,4.770833333333333
+Europe & Central Asia,2023,pulses and nuts,1.7289999999999999
+Europe & Central Asia,2023,vegetables and fruits,0.7041666666666666
+Europe & Central Asia,2024,cereals and tubers,0.82
+Europe & Central Asia,2024,"meat, fish and eggs",4.569166666666667
+Europe & Central Asia,2024,milk and dairy,1.3741666666666665
+Europe & Central Asia,2024,miscellaneous food,1.1216666666666668
+Europe & Central Asia,2024,non-food,1.105
+Europe & Central Asia,2024,oil and fats,4.948333333333333
+Europe & Central Asia,2024,pulses and nuts,1.777
+Europe & Central Asia,2024,vegetables and fruits,0.8033333333333333
+Europe & Central Asia,2025,cereals and tubers,2.6446963899157483
+Europe & Central Asia,2025,"meat, fish and eggs",6.247196389915747
+Europe & Central Asia,2025,milk and dairy,3.8471963899157484
+Europe & Central Asia,2025,miscellaneous food,3.4255297232490816
+Europe & Central Asia,2025,non-food,1.073
+Europe & Central Asia,2025,oil and fats,4.7821963899157485
+Europe & Central Asia,2025,pulses and nuts,3.7766356678988986
+Europe & Central Asia,2025,vegetables and fruits,2.6455297232490818
+Latin America & Caribbean,2017,cereals and tubers,24.94
+Latin America & Caribbean,2017,"meat, fish and eggs",2.3578571428571427
+Latin America & Caribbean,2017,milk and dairy,1.4469999999999998
+Latin America & Caribbean,2017,miscellaneous food,4.67
+Latin America & Caribbean,2017,non-food,2.0435
+Latin America & Caribbean,2017,oil and fats,2.82125
+Latin America & Caribbean,2017,pulses and nuts,18.609444444444446
+Latin America & Caribbean,2017,vegetables and fruits,3.9499999999999997
+Latin America & Caribbean,2018,cereals and tubers,7.235357142857143
+Latin America & Caribbean,2018,"meat, fish and eggs",2.2085714285714286
+Latin America & Caribbean,2018,milk and dairy,1.126
+Latin America & Caribbean,2018,miscellaneous food,3.7971428571428567
+Latin America & Caribbean,2018,non-food,2.1951383333333334
+Latin America & Caribbean,2018,oil and fats,2.785
+Latin America & Caribbean,2018,pulses and nuts,21.083333333333332
+Latin America & Caribbean,2018,vegetables and fruits,4.23
+Latin America & Caribbean,2019,cereals and tubers,6.9799999999999995
+Latin America & Caribbean,2019,"meat, fish and eggs",2.0907142857142857
+Latin America & Caribbean,2019,milk and dairy,1.5599999999999998
+Latin America & Caribbean,2019,miscellaneous food,3.6342857142857143
+Latin America & Caribbean,2019,non-food,2.1467733333333334
+Latin America & Caribbean,2019,oil and fats,2.6574999999999998
+Latin America & Caribbean,2019,pulses and nuts,16.450555555555557
+Latin America & Caribbean,2019,vegetables and fruits,4.071666666666666
+Latin America & Caribbean,2020,cereals and tubers,6.499642857142858
+Latin America & Caribbean,2020,"meat, fish and eggs",2.1792857142857143
+Latin America & Caribbean,2020,milk and dairy,1.7625000000000002
+Latin America & Caribbean,2020,miscellaneous food,3.181875
+Latin America & Caribbean,2020,non-food,2.23
+Latin America & Caribbean,2020,oil and fats,2.653
+Latin America & Caribbean,2020,pulses and nuts,19.455
+Latin America & Caribbean,2020,vegetables and fruits,3.01125
+Latin America & Caribbean,2021,cereals and tubers,5.567857142857143
+Latin America & Caribbean,2021,"meat, fish and eggs",12.172857142857142
+Latin America & Caribbean,2021,milk and dairy,1.915
+Latin America & Caribbean,2021,miscellaneous food,3.266428571428571
+Latin America & Caribbean,2021,oil and fats,3.8087500000000003
+Latin America & Caribbean,2021,pulses and nuts,21.049
+Latin America & Caribbean,2021,vegetables and fruits,3.2475
+Latin America & Caribbean,2022,cereals and tubers,4.7266666666666675
+Latin America & Caribbean,2022,"meat, fish and eggs",2.4957142857142856
+Latin America & Caribbean,2022,milk and dairy,2.5490000000000004
+Latin America & Caribbean,2022,miscellaneous food,6.182499999999999
+Latin America & Caribbean,2022,oil and fats,4.63
+Latin America & Caribbean,2022,pulses and nuts,13.205
+Latin America & Caribbean,2022,vegetables and fruits,2.824
+Latin America & Caribbean,2023,cereals and tubers,1.5633333333333332
+Latin America & Caribbean,2023,"meat, fish and eggs",3.647
+Latin America & Caribbean,2023,milk and dairy,3.096
+Latin America & Caribbean,2023,miscellaneous food,1.8233333333333333
+Latin America & Caribbean,2023,oil and fats,4.585
+Latin America & Caribbean,2023,pulses and nuts,3.155
+Latin America & Caribbean,2023,vegetables and fruits,0.6637500000000001
+Latin America & Caribbean,2024,cereals and tubers,1.6499999999999997
+Latin America & Caribbean,2024,"meat, fish and eggs",3.556
+Latin America & Caribbean,2024,milk and dairy,3.2630000000000003
+Latin America & Caribbean,2024,miscellaneous food,2.080833333333333
+Latin America & Caribbean,2024,oil and fats,4.504
+Latin America & Caribbean,2024,pulses and nuts,3.6700000000000004
+Latin America & Caribbean,2024,vegetables and fruits,0.8524999999999999
+Latin America & Caribbean,2025,cereals and tubers,6.025
+Latin America & Caribbean,2025,"meat, fish and eggs",4.16625
+Latin America & Caribbean,2025,milk and dairy,2.3
+Latin America & Caribbean,2025,miscellaneous food,1.9562499999999998
+Latin America & Caribbean,2025,oil and fats,4.913333333333333
+Latin America & Caribbean,2025,pulses and nuts,24.0675
+Latin America & Caribbean,2025,vegetables and fruits,13.616249999999999
+Middle East & North Africa,2017,cereals and tubers,1.4066666666666667
+Middle East & North Africa,2017,"meat, fish and eggs",3.9155555555555557
+Middle East & North Africa,2017,milk and dairy,2.1214285714285714
+Middle East & North Africa,2017,miscellaneous food,1.141875
+Middle East & North Africa,2017,non-food,3.861875
+Middle East & North Africa,2017,oil and fats,3.001111111111111
+Middle East & North Africa,2017,pulses and nuts,1.8900000000000001
+Middle East & North Africa,2017,vegetables and fruits,0.96375
+Middle East & North Africa,2018,cereals and tubers,1.3655555555555554
+Middle East & North Africa,2018,"meat, fish and eggs",4.128333333333334
+Middle East & North Africa,2018,milk and dairy,2.117857142857143
+Middle East & North Africa,2018,miscellaneous food,1.011875
+Middle East & North Africa,2018,non-food,3.86625
+Middle East & North Africa,2018,oil and fats,3.3872222222222224
+Middle East & North Africa,2018,pulses and nuts,1.8172222222222223
+Middle East & North Africa,2018,vegetables and fruits,1.00375
+Middle East & North Africa,2019,cereals and tubers,1.4344444444444444
+Middle East & North Africa,2019,"meat, fish and eggs",4.2
+Middle East & North Africa,2019,milk and dairy,2.71375
+Middle East & North Africa,2019,miscellaneous food,0.9244444444444445
+Middle East & North Africa,2019,non-food,3.248333333333333
+Middle East & North Africa,2019,oil and fats,3.3329999999999997
+Middle East & North Africa,2019,pulses and nuts,1.748
+Middle East & North Africa,2019,vegetables and fruits,1.0794444444444444
+Middle East & North Africa,2020,cereals and tubers,1.6172222222222221
+Middle East & North Africa,2020,"meat, fish and eggs",5.063
+Middle East & North Africa,2020,milk and dairy,3.810625
+Middle East & North Africa,2020,miscellaneous food,1.116111111111111
+Middle East & North Africa,2020,non-food,3.4161111111111113
+Middle East & North Africa,2020,oil and fats,4.970000000000001
+Middle East & North Africa,2020,pulses and nuts,2.2704999999999997
+Middle East & North Africa,2020,vegetables and fruits,1.2572222222222222
+Middle East & North Africa,2021,cereals and tubers,1.841818181818182
+Middle East & North Africa,2021,"meat, fish and eggs",20.59
+Middle East & North Africa,2021,milk and dairy,3.5072222222222225
+Middle East & North Africa,2021,miscellaneous food,2.0290909090909093
+Middle East & North Africa,2021,non-food,5.7988888888888885
+Middle East & North Africa,2021,oil and fats,11.578636363636363
+Middle East & North Africa,2021,pulses and nuts,3.4295454545454547
+Middle East & North Africa,2021,vegetables and fruits,1.0825
+Middle East & North Africa,2022,cereals and tubers,2.799090909090909
+Middle East & North Africa,2022,"meat, fish and eggs",27.970000000000002
+Middle East & North Africa,2022,milk and dairy,10.504999999999999
+Middle East & North Africa,2022,miscellaneous food,4.265
+Middle East & North Africa,2022,non-food,36.69888888888889
+Middle East & North Africa,2022,oil and fats,29.76954545454545
+Middle East & North Africa,2022,pulses and nuts,6.254090909090909
+Middle East & North Africa,2022,vegetables and fruits,2.1254545454545455
+Middle East & North Africa,2023,cereals and tubers,4.121363636363636
+Middle East & North Africa,2023,"meat, fish and eggs",28.539545454545454
+Middle East & North Africa,2023,milk and dairy,6.7095
+Middle East & North Africa,2023,miscellaneous food,2.7195454545454543
+Middle East & North Africa,2023,non-food,13.656666666666666
+Middle East & North Africa,2023,oil and fats,10.148636363636363
+Middle East & North Africa,2023,pulses and nuts,4.594090909090909
+Middle East & North Africa,2023,vegetables and fruits,1.815
+Middle East & North Africa,2024,cereals and tubers,2.9149999999999996
+Middle East & North Africa,2024,"meat, fish and eggs",29.877272727272725
+Middle East & North Africa,2024,milk and dairy,5.3445
+Middle East & North Africa,2024,miscellaneous food,2.5604545454545455
+Middle East & North Africa,2024,non-food,4.97
+Middle East & North Africa,2024,oil and fats,5.939545454545454
+Middle East & North Africa,2024,pulses and nuts,5.155909090909091
+Middle East & North Africa,2024,vegetables and fruits,2.2859090909090907
+Middle East & North Africa,2025,cereals and tubers,4.309545454545455
+Middle East & North Africa,2025,"meat, fish and eggs",62.152272727272724
+Middle East & North Africa,2025,milk and dairy,6.531000000000001
+Middle East & North Africa,2025,miscellaneous food,3.152272727272727
+Middle East & North Africa,2025,non-food,5.2283333333333335
+Middle East & North Africa,2025,oil and fats,7.222727272727273
+Middle East & North Africa,2025,pulses and nuts,7.9363636363636365
+Middle East & North Africa,2025,vegetables and fruits,2.838636363636364
+South Asia,2017,cereals and tubers,0.5414285714285715
+South Asia,2017,"meat, fish and eggs",1.1949999999999998
+South Asia,2017,milk and dairy,0.72
+South Asia,2017,miscellaneous food,0.5083333333333333
+South Asia,2017,non-food,1.2416666666666667
+South Asia,2017,oil and fats,1.3533333333333335
+South Asia,2017,pulses and nuts,1.1633333333333333
+South Asia,2017,vegetables and fruits,0.37
+South Asia,2018,cereals and tubers,0.41500000000000004
+South Asia,2018,"meat, fish and eggs",1.045
+South Asia,2018,milk and dairy,0.6725
+South Asia,2018,miscellaneous food,0.5766666666666667
+South Asia,2018,non-food,1.2566666666666666
+South Asia,2018,oil and fats,1.26
+South Asia,2018,pulses and nuts,0.89625
+South Asia,2018,vegetables and fruits,0.31
+South Asia,2019,cereals and tubers,0.4014285714285714
+South Asia,2019,"meat, fish and eggs",1.9
+South Asia,2019,milk and dairy,0.645
+South Asia,2019,miscellaneous food,0.37999999999999995
+South Asia,2019,non-food,1.4475
+South Asia,2019,oil and fats,1.286
+South Asia,2019,pulses and nuts,0.9550000000000001
+South Asia,2019,vegetables and fruits,0.595
+South Asia,2020,cereals and tubers,0.43714285714285717
+South Asia,2020,"meat, fish and eggs",2.255
+South Asia,2020,milk and dairy,0.6533333333333333
+South Asia,2020,miscellaneous food,0.7619999999999999
+South Asia,2020,non-food,0.8524999999999999
+South Asia,2020,oil and fats,1.365
+South Asia,2020,pulses and nuts,1.0992857142857144
+South Asia,2020,vegetables and fruits,0.6033333333333334
+South Asia,2021,cereals and tubers,0.4342857142857143
+South Asia,2021,"meat, fish and eggs",1.4866666666666666
+South Asia,2021,milk and dairy,0.6900000000000001
+South Asia,2021,miscellaneous food,0.8350000000000002
+South Asia,2021,non-food,1.0074999999999998
+South Asia,2021,oil and fats,1.9514285714285715
+South Asia,2021,pulses and nuts,1.1457142857142857
+South Asia,2021,vegetables and fruits,0.5566666666666666
+South Asia,2022,cereals and tubers,0.4928571428571429
+South Asia,2022,"meat, fish and eggs",2.67
+South Asia,2022,milk and dairy,0.66
+South Asia,2022,miscellaneous food,1.192
+South Asia,2022,non-food,1.495
+South Asia,2022,oil and fats,2.037857142857143
+South Asia,2022,pulses and nuts,1.3350000000000002
+South Asia,2022,vegetables and fruits,0.64
+South Asia,2023,cereals and tubers,0.5128571428571428
+South Asia,2023,"meat, fish and eggs",2.7466666666666666
+South Asia,2023,milk and dairy,0.68
+South Asia,2023,miscellaneous food,1.093
+South Asia,2023,non-food,1.6325
+South Asia,2023,oil and fats,1.6821428571428572
+South Asia,2023,pulses and nuts,1.2514285714285713
+South Asia,2023,vegetables and fruits,0.6366666666666667
+South Asia,2024,cereals and tubers,0.5278571428571429
+South Asia,2024,"meat, fish and eggs",2.41125
+South Asia,2024,milk and dairy,1.10375
+South Asia,2024,miscellaneous food,0.9583333333333334
+South Asia,2024,non-food,1.7716666666666667
+South Asia,2024,oil and fats,1.5741666666666667
+South Asia,2024,pulses and nuts,1.4207142857142858
+South Asia,2024,vegetables and fruits,0.6625
+South Asia,2025,cereals and tubers,0.5083333333333334
+South Asia,2025,"meat, fish and eggs",2.28125
+South Asia,2025,milk and dairy,1.4024999999999999
+South Asia,2025,miscellaneous food,1.054
+South Asia,2025,non-food,1.7616666666666667
+South Asia,2025,oil and fats,1.746
+South Asia,2025,pulses and nuts,1.4516666666666669
+South Asia,2025,vegetables and fruits,0.6012500000000001
+Sub-Saharan Africa,2017,cereals and tubers,4.600975609756097
+Sub-Saharan Africa,2017,"meat, fish and eggs",20.8696875
+Sub-Saharan Africa,2017,milk and dairy,16.4025
+Sub-Saharan Africa,2017,miscellaneous food,1.3422222222222222
+Sub-Saharan Africa,2017,non-food,3.466333333333333
+Sub-Saharan Africa,2017,oil and fats,3.9482
+Sub-Saharan Africa,2017,pulses and nuts,3.1652000000000005
+Sub-Saharan Africa,2017,vegetables and fruits,1.4873333333333332
+Sub-Saharan Africa,2018,cereals and tubers,4.638375
+Sub-Saharan Africa,2018,"meat, fish and eggs",25.541835
+Sub-Saharan Africa,2018,milk and dairy,12.190714285714288
+Sub-Saharan Africa,2018,miscellaneous food,1.3282619047619046
+Sub-Saharan Africa,2018,non-food,4.3884518749999994
+Sub-Saharan Africa,2018,oil and fats,3.7890384615384614
+Sub-Saharan Africa,2018,pulses and nuts,8.740714285714287
+Sub-Saharan Africa,2018,vegetables and fruits,1.652625
+Sub-Saharan Africa,2019,cereals and tubers,3.8616315
+Sub-Saharan Africa,2019,"meat, fish and eggs",30.291085
+Sub-Saharan Africa,2019,milk and dairy,13.031428571428572
+Sub-Saharan Africa,2019,miscellaneous food,1.1647605
+Sub-Saharan Africa,2019,non-food,4.405895882352942
+Sub-Saharan Africa,2019,oil and fats,4.3798076923076925
+Sub-Saharan Africa,2019,pulses and nuts,2.6964285714285716
+Sub-Saharan Africa,2019,vegetables and fruits,1.31125
+Sub-Saharan Africa,2020,cereals and tubers,3.456892
+Sub-Saharan Africa,2020,"meat, fish and eggs",24.282673999999997
+Sub-Saharan Africa,2020,milk and dairy,7.358461538461539
+Sub-Saharan Africa,2020,miscellaneous food,2.4124311111111116
+Sub-Saharan Africa,2020,non-food,3.854794285714286
+Sub-Saharan Africa,2020,oil and fats,3.57724
+Sub-Saharan Africa,2020,pulses and nuts,5.382963636363637
+Sub-Saharan Africa,2020,vegetables and fruits,1.2177826086956522
+Sub-Saharan Africa,2021,cereals and tubers,3.123578947368421
+Sub-Saharan Africa,2021,"meat, fish and eggs",13.164499999999999
+Sub-Saharan Africa,2021,milk and dairy,6.55
+Sub-Saharan Africa,2021,miscellaneous food,2.4921458333333333
+Sub-Saharan Africa,2021,non-food,4.4221894736842104
+Sub-Saharan Africa,2021,oil and fats,4.407607142857143
+Sub-Saharan Africa,2021,pulses and nuts,6.26215
+Sub-Saharan Africa,2021,vegetables and fruits,1.1442
+Sub-Saharan Africa,2022,cereals and tubers,4.143971052631579
+Sub-Saharan Africa,2022,"meat, fish and eggs",14.56326086956522
+Sub-Saharan Africa,2022,milk and dairy,8.68409090909091
+Sub-Saharan Africa,2022,miscellaneous food,2.8567708333333326
+Sub-Saharan Africa,2022,non-food,5.470473684210526
+Sub-Saharan Africa,2022,oil and fats,6.2672592592592595
+Sub-Saharan Africa,2022,pulses and nuts,7.612741935483872
+Sub-Saharan Africa,2022,vegetables and fruits,1.6342105263157896
+Sub-Saharan Africa,2023,cereals and tubers,6.729114285714286
+Sub-Saharan Africa,2023,"meat, fish and eggs",37.052708333333335
+Sub-Saharan Africa,2023,milk and dairy,8.677083333333334
+Sub-Saharan Africa,2023,miscellaneous food,3.0340800000000003
+Sub-Saharan Africa,2023,non-food,6.165911764705882
+Sub-Saharan Africa,2023,oil and fats,5.623035714285714
+Sub-Saharan Africa,2023,pulses and nuts,12.695588235294117
+Sub-Saharan Africa,2023,vegetables and fruits,3.9835000000000003
+Sub-Saharan Africa,2024,cereals and tubers,6.605712121212122
+Sub-Saharan Africa,2024,"meat, fish and eggs",38.6538125
+Sub-Saharan Africa,2024,milk and dairy,7.8127272727272725
+Sub-Saharan Africa,2024,miscellaneous food,2.72084
+Sub-Saharan Africa,2024,non-food,6.3505625
+Sub-Saharan Africa,2024,oil and fats,5.272962962962963
+Sub-Saharan Africa,2024,pulses and nuts,10.41220921875
+Sub-Saharan Africa,2024,vegetables and fruits,4.6345238095238095
+Sub-Saharan Africa,2025,cereals and tubers,6.8757335714285714
+Sub-Saharan Africa,2025,"meat, fish and eggs",33.95254545454545
+Sub-Saharan Africa,2025,milk and dairy,8.033333333333333
+Sub-Saharan Africa,2025,miscellaneous food,2.7084934782608694
+Sub-Saharan Africa,2025,non-food,6.1125428571428575
+Sub-Saharan Africa,2025,oil and fats,6.305258333333332
+Sub-Saharan Africa,2025,pulses and nuts,10.79113925925926
+Sub-Saharan Africa,2025,vegetables and fruits,4.216111111111111
