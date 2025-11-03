@@ -11,7 +11,7 @@ Three main data sources were used for this analysis. The data on consumer price 
 
 [FAO & Our World in Data](https://ourworldindata.org/grapher/share-healthy-diet-unaffordable )
 
-[World Food Programme](https://databank.worldbank.org/source/food-prices-for-nutrition )
+[World Food Programme](https://data.humdata.org/dataset/global-wfp-food-prices)
 ## Data Analysis Approach 
 A combination of descriptive statistics, and data visualization was employed to analyze the data. Key analytical methods include data cleaning, EDA, and trend analysis. Python, Pandas, Matplotlib, Scikit-learn and Tableau were used for data manipulation and analysis. 
 
