@@ -16,7 +16,7 @@ Three main data sources were used for this analysis. The data on consumer price 
 A combination of descriptive statistics, and data visualization was employed to analyze the data. Key analytical methods include data cleaning, EDA, and trend analysis. Python, Pandas, Matplotlib, Scikit-learn and Tableau were used for data manipulation and analysis. 
 
 ## Folder Structure
-`data`: Contains the raw and processed datasets used in the analysis.
+`data`: Contains the data used for the final analysis and visualizations.
 
 `notebooks`: Contains Jupyter notebooks with Python code blocks used for data cleaning and analysis, and detailed explanations of the different steps
 
