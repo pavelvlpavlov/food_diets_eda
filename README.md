@@ -26,6 +26,7 @@ A combination of descriptive statistics, and data visualization was employed to 
 
 ![Map Share of Population](dashboards/Map%20Share%20of%20population.png)
 
+![Inflation Income Level](dashboards/Inflation%20Income%20level.png)
 
 ![Food Price Changes](dashboards/Food%20price%20changes%20global.png)
 
