@@ -1,35 +1,34 @@
-# A Longitudinal Exploration of Food Inflation and Healthy Diet Affordability Across  (Low- and Middle-Income) Countries
+# Longitudinal Exploration of Inflation, Healthy Diet Affordability and Food  Prices Across (Low- and Middle Income) Countries
 
-This project explores global food price trends and affordability from 2017 to 2025, focusing on key food groups such as meat, fish, and eggs.  
-
-## Research Questions
- a) How are food prices changing over the years, 
--in different countries, regions, 
--income levels (at country level) 
--for different food products
-
-b) How is accessibility of healthy diets chaning across the years,
--in different countries, regions, 
--income levels (at country level) 
-
-Notes:
-Employing EDA, descriptive statistics, trend analysis, regresison analysis?
+## Overview
+The objective of the project was to explore and analyze the dynamics of consumer price inflation, food prices and the share of the population who cannot afford a healthy diet. 
+The examination of the relationship between the variables provided initial insights and suggestions about potential patterns, which can be used to make informed decisions to guide further research. 
 
 ## Data Sources  
-- [Inflation of Consumer Prices (Our World in Data)](https://archive.ourworldindata.org/20250916-102301/grapher/inflation-of-consumer-prices.html)  
-- [Share of Population for Whom a Healthy Diet is Unaffordable (Our World in Data)](https://ourworldindata.org/grapher/share-healthy-diet-unaffordable#reuse-this-work)  
-- [WFP - Food Prices](https://data.humdata.org/dataset/global-wfp-food-prices)  
+Three main data sources were used for this analysis. The data on consumer price inflation was sourced from the World Bank, processed by Our World in Data. Food prices data was sourced from the World Food Programme. Data on the share of the population who cannot afford a healthy diet is sourced from FAO and World Bank, with minor processing by Our World in Data. 
 
-## Data Cleaning  
-- Dropped unnecessary columns from **World Food Prices (WFP)** dataset  
-- Handled missing values by filling or removing where appropriate  
-- Filtered datasets for **2017–2024** to align with analysis scope  
-- Converted data types (object → float) for numerical columns  
+[Our World in Data & World Bank](https://ourworldindata.org/grapher/inflation-of-consumer-prices?tab=table&time=latest )
 
-## Data Wrangling  
-- Imputed missing price values in USD using interpolation  
-- Grouped data by **category** (Meat, Fish, Eggs) and **country**  
-- Aggregated data by calculating **sum** and **mean** for comparison across countries and years  
+[FAO & Our World in Data](https://ourworldindata.org/grapher/share-healthy-diet-unaffordable )
+
+[World Food Programme](https://databank.worldbank.org/source/food-prices-for-nutrition )
+## Data Analysis Approach 
+A combination of descriptive statistics, and data visualization was employed to analyze the data. Key analytical methods include data cleaning, EDA, and trend analysis. Python, Pandas, Matplotlib, Scikit-learn and Tableau were used for data manipulation and analysis. 
+
+## Folder Structure
+* data: Contains the raw and processed datasets used in the analysis.
+* notebooks: Contains Jupyter notebooks with Python code blocks used for data cleaning and analysis, and detailed explanations of the different steps
+* dashboards: contains the tableau visualizations as images
+* tableau: contains tableau vizualizations
+
+## Visualizations and Results
+  [Link to Tableau Public](https://public.tableau.com/app/profile/pavel.pavlov1285/vizzes)
+
+ 
+## Tech Stack
+ Python (Pandas, Matplotlib, Scikit-learn)
+Tableau
+
 
 
 
