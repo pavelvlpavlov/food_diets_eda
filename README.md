@@ -17,7 +17,7 @@ A combination of descriptive statistics, and data visualization was employed to 
 
 ## Folder Structure
 `data`: Contains the data used for the final analysis and visualizations.<br>
-`notebooks`: Contains Jupyter notebooks with Python code blocks used for data cleaning and analysis, and detailed explanations of the different steps.<br>
+`notebooks`: Contains Jupyter Notebooks with Python code blocks used for data cleaning and analysis, and detailed explanations of the different steps.<br>
 `dashboards`: Contains the Tableau visualizations as images.<br>
 `tableau`: Contains Tableau visualizations.
 
